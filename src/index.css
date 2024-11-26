@@ -13,6 +13,14 @@
   }
 
 
+  .one-title {
+    @apply md:text-xl text-lg
+  }
+  
+  .two-title {
+    @apply md:text-2xl text-xl
+  }
+  
   .three-title {
     @apply md:text-3xl text-2xl
   }
@@ -37,6 +45,10 @@
       @apply xl:text-8xl lg:text-6xl md:text-5xl text-3xl
   }
 
+  .nine-title {
+    @apply xl:text-9xl lg:text-7xl md:text-6xl text-5xl
+  }
+
   .half-responsive {
     @apply w-full lg:w-1/2
   }
@@ -51,5 +63,13 @@
 
   .transition300scale {
     @apply transition transform duration-300 hover:scale-[1.03]
+  }
+
+  .bg-main {
+    @apply bg-[#632e02]
+  }
+
+  .text-main {
+    @apply text-[#632e02]
   }
 }
