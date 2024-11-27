@@ -8,8 +8,7 @@ export default {
     extend: {
       fontFamily: {
         'outfit': ['Outfit', 'sans-serif'],
-        'pat': ['Patrick Hand', 'sans-serif'],
-        'varela': ['Varela Round', 'sans-serif']
+        'cute': ['Balsamiq Sans', 'sans-serif'],
       }
     },
   },
