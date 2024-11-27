@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Navbar() { 
     return (
-        <header class="bg-main py-4 shadow-md font-cute">
+        <header class="bg-slate-100 py-4 shadow-md font-cute">
             <div className="max-w-[85rem] mx-auto w-full flex flex-wrap items-center">
                 <div class="flex-1 flex justify-between items-center">
-                    <a href="#" class="text-xl text-white one-title">Paws and Relax Grooming</a>
+                    <a href="#" class="text-xl text-black one-title">Paws and Relax Grooming</a>
                 </div>
                 <label for="menu-toggle" class="pointer-cursor md:hidden block">
                 <svg class="fill-current text-white one-title"
@@ -17,7 +17,7 @@ export default function Navbar() {
                 <input class="hidden" type="checkbox" id="menu-toggle" />
                 <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
                     <nav>
-                        <ul class="md:flex items-center justify-between one-title text-white pt-4 md:pt-0">
+                        <ul class="md:flex items-center justify-between one-title text-black pt-4 md:pt-0">
                             <li><a class="md:p-4 py-3 px-0 block" href="#">About Us</a></li>
                             <li><a class="md:p-4 py-3 px-0 block" href="#">Treatments</a></li>
                             <li><a class="md:p-4 py-3 px-0 block" href="#">Blog</a></li>
