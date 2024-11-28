@@ -3,8 +3,8 @@ import dogservices from '../Images/dogservices.png'
 
 const Services = () => {
   return (
-    <div className='bg-slate-200 pb-10 font-cute'>
-        <div className='max-w-[90rem] mx-auto pb-10 space-y-4'>
+    <div className='bg-slate-200 font-cute'>
+        <div className='max-w-[90rem] mx-auto space-y-4'>
             <div className='flex flex-col items-center gap-y-2 text-center'>
                 <h2 className='eight-title tracking-tight'>
                     Our Services
