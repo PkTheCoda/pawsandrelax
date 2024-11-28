@@ -1,6 +1,8 @@
 import React from "react";
 import { PiSealCheckFill } from "react-icons/pi";
 import dogpackage1 from "../Images/dogpackage1.png";
+import dogpackage2 from "../Images/dogpackage2.png";
+import dogpackage3 from "../Images/dogpackage3.png";
 import dogicon from "../Images/icons/dogicon.png";
 
 const Pricing = () => {
@@ -69,7 +71,7 @@ const Pricing = () => {
 
           <div className="w-full py-10 bg-slate-200/60 rounded-md flex flex-col items-center justify-center gap-y-6 px-4">
             <img
-              src={dogpackage1}
+              src={dogpackage2}
               alt=""
               className="h-[25rem] object-cover rounded-lg shadow-xl relative rotate-2 border-black mb-4"
             />
@@ -157,7 +159,7 @@ const Pricing = () => {
             </div>
 
             <img
-              src={dogpackage1}
+              src={dogpackage3}
               alt=""
               className="h-[25rem] object-cover rounded-lg shadow-xl relative -rotate-2 border-black mt-4"
             />
