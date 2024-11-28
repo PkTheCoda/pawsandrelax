@@ -2,7 +2,7 @@ import React from 'react'
 
 const FooterForm = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full z-50'>
         <div class="flex items-center justify-center p-12">
             <div class="w-full bg-slate-900 p-8 rounded-md shadow-md">
             <form>
