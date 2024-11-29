@@ -74,8 +74,8 @@ const Footer = () => {
             </a>
 
           </div>
-          <div class="my-5">© Copyright 2024 Paws and Relax. All Rights Reserved.</div>
-          <div class="">Designed & Powered by <a href="https://thryvedesign.com" target="_blank" className="underline font-semibold">ThryveDesign</a></div>
+          <div class="mt-5 mb-2">© Copyright 2024 Paws and Relax. All Rights Reserved.</div>
+          <div class="">Designed by <a href="https://pranavkonjeti" target="_blank" className="underline font-semibold">Pranav Konjeti</a> & Powered by <a href="https://thryvedesign.com" target="_blank" className="underline font-semibold">ThryveDesign</a></div>
         </div>
       </div>
     </div>
