@@ -46,7 +46,7 @@ const Footer = () => {
               <span class="text-teal-600 text-xs p-1"></span>
             </a>
             <a class="my-3 block" href="/#">
-              pawsandrelaxz@gmail.com
+              pawsandrelax@gmail.com
               <span class="text-teal-600 text-xs p-1"></span>
             </a>
             <a class="my-3 block" href="/#">

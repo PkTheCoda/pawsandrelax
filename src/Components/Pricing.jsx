@@ -14,8 +14,7 @@ const Pricing = () => {
             Our Affordable Packages
           </h1>
           <p className="max-w-2xl one-title text-center mx-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            doloribus labore non quas quia alias, sint neque praesentium
+                Choose from our exclusive grooming packages, each crafted to suit your dog’s unique needs and preferences.
           </p>
         </div>
 

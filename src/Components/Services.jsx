@@ -10,7 +10,7 @@ const Services = () => {
                     Our Services
                 </h2>
                 <p className='max-w-2xl one-title'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. In perferendis nihil, dolorum cumque tempora excepturi 
+                    Explore our tailored grooming services designed to pamper your furry friend, ensuring they look and feel their best!
                 </p>
             </div>
 
