@@ -72,4 +72,8 @@
   .text-main {
     @apply text-[#632e02]
   }
+
+  .testimonial-fill {
+    @apply bg-slate-900 text-slate-100 px-2 rounded-lg
+  }
 }

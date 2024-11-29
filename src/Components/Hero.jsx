@@ -29,7 +29,7 @@ const Hero = () => {
             <IoPaw className='absolute w-14 h-14 text-slate-300 bottom-0 rotate-45 -right-6 -z-10'/>
           </h1>
           <p className='one-title tracking-wide leading-9 max-w-2xl relative'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, dolorum. Porro id distinctio architecto exercitationem
+            Professional grooming to keep your furry friend happy, healthy, and looking their absolute best every day.
           </p>
           <button className='rounded-full shadow-sm px-4 py-2 w-max bg-main text-white transition300scale'>
             Book an Appointment
