@@ -5,7 +5,7 @@ const TestimonialBlob = () => {
   return (
     <div className='py-20 pb-[25rem] bg-slate-900 font-cute space-y-4 text-slate-100 relative'>
 
-        <img src={catpeekfooter} alt="" className='absolute -bottom-[0.55rem] left-1/2 transform -translate-x-1/2 z-50'/>
+        <img src={catpeekfooter} alt="" className='absolute lg:h-80 -bottom-[0.25rem] lg:-bottom-[0.55rem] left-1/2 transform -translate-x-1/2 z-50'/>
 
         <div className='max-w-[75rem] mx-auto space-y-20 px-4'>
             <div className='space-y-4'>
