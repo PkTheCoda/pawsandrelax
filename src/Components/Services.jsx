@@ -9,13 +9,13 @@ const Services = () => {
                 <h2 className='eight-title tracking-tight'>
                     Our Services
                 </h2>
-                <p className='max-w-2xl one-title'>
+                <p className='max-w-2xl one-title px-4'>
                     Explore our tailored grooming services designed to pamper your furry friend, ensuring they look and feel their best!
                 </p>
             </div>
 
-            <div className='py-10 grid grid-cols-10'>
-                <div className="py-10 col-span-3 flex flex-col justify-around">
+            <div className='py-10 grid grid-cols-1 lg:grid-cols-10'>
+                <div className="py-10 col-span-3 flex flex-col justify-around lg:space-y-0 space-y-10 lg:px-0 px-4">
 
                     <div className='flex gap-4 items-center'>
                         <h2 className='seven-title text-main'>
@@ -65,7 +65,7 @@ const Services = () => {
                     <img src={dogservices} alt="" />
                 </div>
 
-                <div className="py-10 col-span-3 flex flex-col justify-around">
+                <div className="py-10 col-span-3 flex flex-col justify-around lg:space-y-0 space-y-10 lg:px-0 px-4">
                     
                     <div className='flex gap-4 items-center'>
                         <h2 className='seven-title text-main'>

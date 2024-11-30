@@ -18,7 +18,7 @@ const Pricing = () => {
           </p>
         </div>
 
-        <div className="py-6 grid grid-cols-3 gap-6">
+        <div className="py-6 grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="w-full py-10 bg-slate-200/60 rounded-md flex flex-col items-center justify-center gap-y-6 px-4">
             <h2 className="five-title text-center">Puppy Pamper Package</h2>
 

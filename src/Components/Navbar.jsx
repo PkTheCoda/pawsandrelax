@@ -2,13 +2,13 @@ import React from "react";
 
 export default function Navbar() { 
     return (
-        <header class="bg-slate-100 py-4 shadow-md font-cute">
-            <div className="max-w-[85rem] mx-auto w-full flex flex-wrap items-center">
+        <header class="bg-slate-100 py-4 shadow-md font-cute pt-6">
+            <div className="max-w-[85rem] mx-auto w-full flex flex-wrap items-center px-4">
                 <div class="flex-1 flex justify-between items-center">
                     <a href="#" class="text-xl text-black one-title">Paws and Relax Grooming</a>
                 </div>
                 <label for="menu-toggle" class="pointer-cursor md:hidden block">
-                <svg class="fill-current text-white one-title"
+                <svg class="fill-current text-slate-900 one-title cursor-pointer hover:text-slate-700"
                     xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
                     <title>menu</title>
                     <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>

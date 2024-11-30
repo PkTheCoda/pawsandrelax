@@ -28,7 +28,7 @@ const Hero = () => {
             <IoPaw className='absolute w-14 h-14 text-slate-300 -top-6 -rotate-45 left-0 -z-10'/>
             <IoPaw className='absolute w-14 h-14 text-slate-300 bottom-0 rotate-45 -right-6 -z-10'/>
           </h1>
-          <p className='one-title tracking-wide leading-9 max-w-2xl relative'>
+          <p className='one-title tracking-wide leading-9 max-w-2xl relative px-2'>
             Professional grooming to keep your furry friend happy, healthy, and looking their absolute best every day.
           </p>
           <button className='rounded-full shadow-sm px-4 py-2 w-max bg-main text-white transition300scale'>
@@ -40,9 +40,9 @@ const Hero = () => {
           <img src={dogmain} alt="Picture of a dog" className='relative'/>
         </div>
 
-        <div className='py-10 mt-20 w-full max-w-[62rem] mx-auto grid grid-cols-3 gap-4'>
+        <div className='py-10 mt-20 w-full max-w-[62rem] mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 px-4'>
 
-          <div className='bg-white rounded-lg shadow-lg w-full flex items-center gap-6 px-4 py-8 -rotate-1'>
+          <div className='bg-white rounded-lg shadow-lg w-full flex items-center gap-6 px-4 py-8 md:-rotate-1'>
             <img src={staricon} alt="" className='h-16 w-16'/>
             <div className=''>
               <h4 className='five-title'>
@@ -54,7 +54,7 @@ const Hero = () => {
             </div>    
           </div>
 
-          <div className='bg-white rounded-lg shadow-lg w-full flex items-center gap-6 px-4 py-8 rotate-1'>
+          <div className='bg-white rounded-lg shadow-lg w-full flex items-center gap-6 px-4 py-8 md:rotate-1'>
             <img src={dogicon} alt="" className='h-16 w-16'/>
             <div className=''>
               <h4 className='five-title'>
@@ -66,7 +66,7 @@ const Hero = () => {
             </div>    
           </div>
 
-          <div className='bg-white rounded-lg shadow-lg w-full flex items-center gap-6 px-4 py-8 -rotate-1'>
+          <div className='bg-white rounded-lg shadow-lg w-full flex items-center gap-6 px-4 py-8 md:-rotate-1'>
             <img src={doghappyicon} alt="" className='h-16 w-16'/>
             <div className=''>
               <h4 className='five-title'>

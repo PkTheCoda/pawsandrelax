@@ -15,7 +15,7 @@ const PreFooter = () => {
       }}
     > 
 
-        <img src={catpeekfooter} alt="" className='h-80 absolute -top-[19.5rem] left-1/2 transform -translate-x-1/2'/>
+        {/* <img src={catpeekfooter} alt="" className='h-80 absolute -top-[19.5rem] left-1/2 transform -translate-x-1/2'/> */}
         
         <div className='max-w-[75rem] mx-auto py-10 flex flex-col items-center justify-center'>
             <h1 className='seven-title tracking-tighter'>
