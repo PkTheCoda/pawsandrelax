@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebook, FaTwitter} from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
+import logo from '../Images/pawsandrelaxlogo.png' 
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
 
         <div class="max-w-screen-lg px-4 sm:px-6 text-gray-800 sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
           <div class="p-5">
-            <h3 class="font-bold text-xl text-slate-900">Paws & Relax</h3>
+            <img src={logo} alt="" className="size-24"/>
           </div>
           <div class="p-5">
             <div class="text-sm uppercase text-slate-900 font-bold">Pages</div>

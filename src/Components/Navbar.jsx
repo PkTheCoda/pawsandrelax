@@ -1,11 +1,12 @@
 import React from "react";
+import logo from '../Images/pawsandrelaxlogo.png'
 
 export default function Navbar() { 
     return (
         <header class="bg-slate-100 py-4 shadow-md font-cute pt-6">
             <div className="max-w-[85rem] mx-auto w-full flex flex-wrap items-center px-4">
                 <div class="flex-1 flex justify-between items-center">
-                    <a href="#" class="text-xl text-black one-title">Paws and Relax Grooming</a>
+                    <img src={logo} alt="" className="size-24"/>
                 </div>
                 <label for="menu-toggle" class="pointer-cursor md:hidden block">
                 <svg class="fill-current text-slate-900 one-title cursor-pointer hover:text-slate-700"

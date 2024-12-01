@@ -9,7 +9,7 @@ import staricon from '../Images/icons/staricon.png'
 
 const Hero = () => {
   return (
-    <div className='bg-slate-100 py-20 font-cute relative'>
+    <div className='bg-slate-100 pb-20 pt-10 font-cute relative'>
 
       <div className='h-[12rem] w-full bg-slate-200 absolute bottom-0'>
 
