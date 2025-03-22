@@ -21,8 +21,7 @@ export default function Navbar() {
                         <ul class="md:flex items-center justify-between one-title text-black pt-4 md:pt-0">
                             <li><a class="md:p-4 py-3 px-0 block" href="#">About Us</a></li>
                             <li><a class="md:p-4 py-3 px-0 block" href="#">Treatments</a></li>
-                            <li><a class="md:p-4 py-3 px-0 block" href="#">Blog</a></li>
-                            <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#">Contact Us</a></li>
+                            <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="/contact">Contact Us</a></li>
                         </ul>
                     </nav>
                 </div>

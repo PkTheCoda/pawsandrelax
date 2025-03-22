@@ -18,7 +18,6 @@ const Homepage = () => {
         <Pricing />
         <TestimonialBlob />
         <PreFooter />
-        <Footer />
     </>
   )
 }
