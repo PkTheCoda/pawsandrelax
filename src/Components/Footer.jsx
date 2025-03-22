@@ -43,7 +43,7 @@ const Footer = () => {
               Contact us
             </div>
             <a class="my-3 block" href="/#">
-              4206 Biddie Lane, Richmond, VA, 23224
+              Richmond, VA, 23224
               <span class="text-teal-600 text-xs p-1"></span>
             </a>
             <a class="my-3 block" href="/#">
